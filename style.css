@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgray;
+}
+
+.textAlign {
+    text-align: center;
+}
+
+.marginAuto {
+    margin: auto;
+}
+
+.footer {
+    background: darkgreen;
+    width: 1000px;
+    height: 40px;
+}
