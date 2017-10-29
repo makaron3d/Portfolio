@@ -21,7 +21,7 @@ body {
 }
 
 .footer {
-    background: #0C0701;
+    background: #37322C;
     height: 40px;
     line-height: 40px;
     color: #53476D;
@@ -29,15 +29,13 @@ body {
 
 .nav {
     text-transform: uppercase;
-    background: #49102D;
+    background: #37322C;
     height: 80px;
 }
 
 .nav ul li a {
     text-decoration: none;
     color: #B57243;
-    width: 16.666%;
-    height: 80px;
 }
 
 .nav ul li {
@@ -57,7 +55,7 @@ body {
 }
 
 .nav ul li:hover {
-    background: #4B21A6;
+    background: #6D5B44;
     transition: 1s;
     text-shadow: black 0.4em 0.4em 0.4em;
     cursor: pointer;
@@ -69,13 +67,12 @@ body {
 }
 
 .jumbotron {
-    background-image: url(http://1.bp.blogspot.com/-NAYokHyXzV0/VnvynY3rxoI/AAAAAAAAJz4/IFkk-fyy9Eg/s1600/Martial%2Barts.jpg);
-    
+    background-image: url("https://i.kinja-img.com/gawker-media/image/upload/s--G7_SMEbK--/c_scale,fl_progressive,q_80,w_800/18kidy0nchnegpng.png");
     height: calc(100vh - 120px);
     background-size: cover;
     background-repeat: no-repeat;
-    color: #A2763C;
-    text-shadow: #15130F 0.3em 0.4em 0.4em;
+    color: #37322C;
+    text-shadow: #15130F 0.4em 0.4em 0.4em;
     background-position: center;
     overflow: hidden;
 }
@@ -84,7 +81,7 @@ body {
     float: right;
     text-align: center;
     font-weight: bold;
-    padding: 7%;
+    padding: 6%;
 }
 
 .jumbotron>h3 {   
@@ -97,7 +94,7 @@ body {
 
 .nav>ul>li>ul>li {
     display: none;
-    background: #49102D;
+    background: #37322C;
     width: 100%;
     height: 40px;
     line-height: 40px;
@@ -107,29 +104,5 @@ body {
 .nav li:hover ul li {
     display: block;
     position: grid;
-}
 
-button {
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    margin-left: 59.5%;
-    margin-top: 17%;
-    background-color: rgba(255,255,0, 0.2);
-    background-size: 150%;
-    transition: 2s;
-    cursor: pointer;
-}
-
-
-
-
-
-
-
-button:hover {
-    background-image: linear-gradient(-50deg, red 30%, yellow 75%);
-    background-position: 0% 100%;
-    transition: 2s;
-    color: white;
 }
