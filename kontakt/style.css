@@ -6,6 +6,7 @@
 
 body {
     background: gray;
+    font-family: 'Roboto', sans-serif;
 }
 
 .textAlign {
@@ -84,7 +85,7 @@ body {
     padding: 6%;
 }
 
-.jumbotron>h3 {   
+.jumbotron>h2 {   
     position: fixed;
     left: 20%;
     bottom: 10%;
@@ -127,7 +128,12 @@ p a:hover {
 
 .jumbotron p {
     background: linear-gradient(#DECBAD, white);
-    padding: 2px 0 2px 5px;
-    width: 31%;
+    padding: 11px 9px 11px 18px;
+    width: 41%;
     border-radius: 5px;
+    font-size: 18px;
+}
+
+i {
+    color: dodgerblue;
 }
