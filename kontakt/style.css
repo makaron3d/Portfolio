@@ -120,3 +120,14 @@ body {
 #writeEmail, #adress, #firstName {
     color: gray;
 }
+
+p a:hover {
+    color: red;
+}
+
+.jumbotron p {
+    background: linear-gradient(#DECBAD, white);
+    padding: 2px 0 2px 5px;
+    width: 31%;
+    border-radius: 5px;
+}

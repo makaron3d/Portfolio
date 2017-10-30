@@ -3,12 +3,12 @@ var adress = document.getElementById('adress');
 var writeEmail = document.getElementById('writeEmail');
 
 adress.onclick = function () {
-    //this.innerHTML.value = '';
+    this.innerHTML = this.value = '';
     this.style.color = 'black';
-}; //do poprawy usuniecie value po click
+};
 
 firstName.onclick = function () {
-    //this.innerHTML = '';
+    this.innerHTML = this.value = '';
     this.style.color = 'black';
 };
 
