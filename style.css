@@ -22,15 +22,15 @@ body {
 
 .footer {
     background: #0C0701;
-    height: 40px;
-    line-height: 40px;
+    height: 5vh;
+    line-height: 5vh;
     color: #53476D;
 }
 
 .nav {
     text-transform: uppercase;
     background: #49102D;
-    height: 80px;
+    height: 10;
 }
 
 .nav ul li a {
@@ -60,8 +60,7 @@ body {
     background: #4B21A6;
     transition: 1s;
     text-shadow: black 0.4em 0.4em 0.4em;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 .nav ul li:hover a {
@@ -121,15 +120,8 @@ button {
     cursor: pointer;
 }
 
-
-
-
-
-
-
 button:hover {
     background-image: linear-gradient(-50deg, red 30%, yellow 75%);
     background-position: 0% 100%;
-    transition: 2s;
     color: white;
 }

@@ -104,5 +104,19 @@ body {
 .nav li:hover ul li {
     display: block;
     position: grid;
+}
 
+#sendEmail {
+    position: fixed;
+    bottom: 4%;
+    padding: 1%;
+}
+
+.contact {
+    padding: 5%;
+    text-shadow: 0 0 0;
+}
+
+#writeEmail, #adress, #firstName {
+    color: gray;
 }
