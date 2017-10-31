@@ -65,6 +65,8 @@ body {
 
 .nav ul li:hover a {
     color: #A87E93;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .jumbotron {
@@ -128,12 +130,18 @@ p a:hover {
 
 .jumbotron p {
     background: linear-gradient(#DECBAD, white);
-    padding: 11px 9px 11px 18px;
-    width: 41%;
+    padding: 11px 9px 11px 10px;
+    width: 36%;
     border-radius: 5px;
     font-size: 18px;
 }
 
-i {
-    color: dodgerblue;
+.jumbotron p:hover {
+    box-shadow: gray 2px 2px;
+    background: linear-gradient(#F0F4EF, white);
+}
+
+#kontakt {
+    font-size: 20px;
+    font-weight: 600;
 }

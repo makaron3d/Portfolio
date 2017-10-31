@@ -31,7 +31,7 @@ body {
 .nav {
     text-transform: uppercase;
     background: #49102D;
-    height: 10;
+    height: 80px;
 }
 
 .nav ul li a {
@@ -61,11 +61,13 @@ body {
     background: #4B21A6;
     transition: 1s;
     text-shadow: black 0.4em 0.4em 0.4em;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .nav ul li:hover a {
     color: #A87E93;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .jumbotron {
@@ -125,4 +127,9 @@ button:hover {
     background-image: linear-gradient(-50deg, red 30%, yellow 75%);
     background-position: 0% 100%;
     color: white;
+}
+
+#main {
+    font-size: 20px;
+    font-weight: 600;
 }

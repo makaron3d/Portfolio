@@ -19,7 +19,7 @@ body {
 
 .container {
     max-width: 1000px;
-    background-color: white;
+    background-color: lightgray;
 }
 
 .footer {
@@ -58,6 +58,8 @@ body {
 
 .nav ul li:hover a {
     color: #A87E93;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .nav>ul>li>ul>li {
@@ -115,7 +117,13 @@ img {
 .gallery {
     width: 1000px;
     min-height: calc(100vh - 120px);
-    background: lightgray;
+    position: relative;
+}
+
+.gallery h1 {
+    opacity: 1;
+    text-align: center;
+    color: #5E5B57;
 }
 
 .row {
@@ -123,8 +131,16 @@ img {
     margin: auto;
 }
 
+img {
+    opacity: 0.8;
+}
 img:hover {
-    opacity: 0.5;
+    opacity: 1;
     cursor: zoom-in;
+    box-shadow: #393633 4px 6px;
 }
 
+#galeria {
+    font-size: 20px;
+    font-weight: 600;
+}
