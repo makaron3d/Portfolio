@@ -38,11 +38,11 @@
             <p><i class="icon-youtube"  style="color: #F01A1A"></i><a href="  https://www.youtube.com/channel/UCgZzYsokn0SJspnnGa2cFtw?view_as=subscriber">konto - youtube</a></p>
             <p><i class="icon-phone-squared" style="color: #4AD40F"></i> 791623582</p>
         </div>
-        <form id="sendEmail">
+        <form id="sendEmail" action="mailto:makaron3d@gmail.com?subject=temat" method="post" enctype="text/plain" onsubmit="usun_pl(this); mail_form(this); return false">
             <input id="firstName" type="text" name="firstName" value="imię:"><br>
             <input id="adress" type="email" name="adress" value="email:"><br>
             <textarea rows="7" name="writeEmail" id="writeEmail">Stwórz wiadomość...</textarea>
-            <input class="submit" type="submit" value="Wyślij">
+            <input id="submit" type="submit" value="Wyślij">
         </form>
         <div id="info"></div>
     </section>
